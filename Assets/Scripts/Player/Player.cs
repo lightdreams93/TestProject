@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+		
         if (!_isButtonPressed)
         {
             if (Input.GetMouseButtonDown(0)) {
